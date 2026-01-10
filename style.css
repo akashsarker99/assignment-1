@@ -40,8 +40,6 @@ nav .menu li a{
     background-color: rgb(0, 134, 120);
 }
 #banner{
-    /* width: 100%;
-    max-width: 1600px; */
     background-image: url(./assets/hero-bg.png);
     background-size: cover;
     background-repeat: none;
@@ -141,7 +139,6 @@ nav .menu li a{
 #solution{
      max-width: 1360px;
     margin: 120px auto;
-    border: 1px solid rebeccapurple;
 }
 
 .solution-content{
@@ -206,6 +203,42 @@ nav .menu li a{
     margin-top: 16px;
     margin-bottom: 24px;
     line-height: 24px;
+}
+footer{
+    margin-top: 120px;
+    background-color: rgba(0, 25, 49, 1);
+}
+.footer-container{
+     width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px;
+    align-items: center;
+}
+.footer-container .social h3{
+    color: #F7F6F2;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.footer-container .social .icons i{
+    margin-right: 16px;
+    color: #F7F6F2;
+    cursor: pointer;
+}
+footer h5{
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+    max-width: 1360px;
+  color: #FAFAFA;
+  text-align: center;
+  border-top: 1px solid #627382;
+   margin: 0 auto;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
 
