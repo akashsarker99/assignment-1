@@ -33,7 +33,7 @@ nav .menu li a{
    border: none;
    border-radius: 4px;
    color: rgba(255, 255, 255, 1);
-   font-weight: 600;
+   font-weight: 550;
    cursor: pointer;
 }
 .btn:hover, .btn2:hover{
@@ -141,11 +141,20 @@ nav .menu li a{
 #solution{
      max-width: 1360px;
     margin: 120px auto;
+    border: 1px solid rebeccapurple;
 }
 
 .solution-content{
     display: flex;
     gap: 60px;
+}
+.solution-container .solution-content{
+    display: flex;
+    gap: 60px;
+}
+.solution-container .solution-content img{
+    height: 600px;
+    width: 600px;
 }
 .solution-content .solution-text{
     max-width: 700px;
@@ -155,12 +164,12 @@ nav .menu li a{
     padding-right: 120px;
 }
 .solution-content .solution-text h3{
-    font-size: 14px;
+    font-size: 16px;
     color: #30B868;
 }
 .solution-content .solution-text h1{
-    font-size: 38px;
-    margin-top: 14px;
+    font-size: 48px;
+    margin-top: 16px;
 }
 .solution-content .solution-text p{
     font-size: 16px;
@@ -175,6 +184,28 @@ nav .menu li a{
     font-size: 16px;
     color: black;
     font-weight: 600;
+}
+#early-access{
+    width: 100%;
+    max-width: 1360px;
+    align-items: center;
+    margin: 120px auto;
+    text-align: center;
+    background-color: #F7F6F2;
+}
+#early-access .early-access-box{
+        padding-top: 80px;
+        padding-bottom: 80px;
+}
+#early-access .early-access-box h1{
+    font-size: 40px;
+}
+#early-access .early-access-box p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    line-height: 24px;
 }
 
 
