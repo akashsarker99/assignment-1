@@ -138,7 +138,44 @@ nav .menu li a{
     background-color: rgb(250, 247, 243);
 }
 /* card completed */
+#solution{
+     max-width: 1360px;
+    margin: 120px auto;
+}
 
+.solution-content{
+    display: flex;
+    gap: 60px;
+}
+.solution-content .solution-text{
+    max-width: 700px;
+    align-items: center;
+    margin-top: 102px;
+    text-align: left;
+    padding-right: 120px;
+}
+.solution-content .solution-text h3{
+    font-size: 14px;
+    color: #30B868;
+}
+.solution-content .solution-text h1{
+    font-size: 38px;
+    margin-top: 14px;
+}
+.solution-content .solution-text p{
+    font-size: 16px;
+    color: #627382;
+    margin-top: 14px;
+
+}
+.solution-text .sol-tick{
+    margin-top: 40px;
+}
+.solution-text .sol-tick p{
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
 
 
 
